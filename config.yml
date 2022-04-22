@@ -9,11 +9,15 @@ params:
   homeInfoParams:
     Title: Gautier Marechal 🌞
     Content: >
-      Developer
-      Generalist
-      Science lover 
-      Wannabe philosopher 
-      Bitcoiner
+      - Developer
+
+      - Generalist
+
+      - Science lover 
+
+      - Wannabe philosopher 
+
+      - Bitcoiner
 
   socialIcons: # optional
     - name: "github"
@@ -31,3 +35,6 @@ menu:
       name: Projects
       url: /projects/
       weight: 20
+
+taxonomies:
+  category: categories
