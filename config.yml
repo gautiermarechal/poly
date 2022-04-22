@@ -1,0 +1,33 @@
+baseURL: "https://examplesite.com/"
+title: Gautier Marechal
+paginate: 5
+theme: PaperMod
+
+params:
+  defaultTheme: auto
+  keywords: [Blog, Portfolio, PaperMod]
+  homeInfoParams:
+    Title: Gautier Marechal 🌞
+    Content: >
+      Developer
+      Generalist
+      Science lover 
+      Wannabe philosopher 
+      Bitcoiner
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/gautiermarechal"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/gautiermarechal/"
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
