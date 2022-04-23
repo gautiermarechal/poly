@@ -6,7 +6,11 @@ cover:
   alt: "Thermo"
   caption: "Interaction between two isolated systems"
   relative: false
-  categories: ["Psychology", "Philsophy", "Physics", "Science"]
+categories:
+  - Psychology
+  - Philsophy
+  - Physics
+  - Science
 ---
 
 When understood, some concepts can give the learner a completely new perspective of the world. Thermodynamics is one of them. This is a broad and generic subject that gives opportunity to parallel it with a lot of aspects in the world. Today we will parallel it with psychology, and more particularly to the human mind.
