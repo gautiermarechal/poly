@@ -5,37 +5,100 @@ theme: PaperMod
 
 params:
   defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
   keywords: [Blog, Portfolio]
-  homeInfoParams:
-    Title: Gautier Marechal 🌞
-    Content: >
-      - Developer
-
-      - Generalist
-
-      - Science lover 
-
-      - Wannabe philosopher 
-
-      - Bitcoiner
 
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/gautiermarechal"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/gautiermarechal/"
-
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 20
+    - name: "email"
+      url: "mailto:gautier.marechal@gaut.io"
 
 taxonomies:
   category: categories
-  project: projects
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+languages:
+  en:
+    languageName: "English"
+    languageAltTitle: English
+    weight: 1
+    homeInfoParams:
+      Title: Gautier Marechal 🌞
+      Content: >
+        - Developer
+
+        - Generalist
+
+        - Science lover 
+
+        - Wannabe philosopher 
+
+        - Bitcoiner
+    menu:
+      main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 1
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 2
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 3
+        - identifier: search
+          name: Search
+          url: search/
+          weight: 4
+
+  fr:
+    languageName: ":fr:"
+    languageAltTitle: French
+    weight: 2
+    title: Gautier Marechal
+    homeInfoParams:
+      Title: Gautier Marechal 🌞
+      Content: >
+        - Développeur
+
+        - Generaliste
+
+        - Passioné de science 
+
+        - Aspirant philosophe 
+
+        - Bitcoiner
+    menu:
+      main:
+        - identifier: posts
+          name: Publications
+          url: /fr/posts/
+          weight: 1
+        - identifier: projects
+          name: Projets
+          url: /fr/projects/
+          weight: 2
+        - identifier: categories
+          name: Catégories
+          url: /fr/categories/
+          weight: 3
+        - identifier: search
+          name: Rechercher
+          url: /fr/search/
+          weight: 4

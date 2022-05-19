@@ -20,7 +20,7 @@ One of the most popular reflections of abstraction in philosophy has been made b
 
 For example, the word “horse” encompasses anything that resembles a horse in your perception. All these particular elements in the group are linked by the essence that makes each element part of the group. And this essence is the result of the abstract ideas that you have of horses. Abstraction forms the essence in the mind and creates knowledge as a whole.
 
-Now, what is clearly an abstraction? The roots of the words define something abstracted as “something pulled or drawn away”. This is exactly the process that the mind engages in when grouping ideas as mentioned above. It converts the real element to a mental appearance (or idea) and detaches the latter from any real-life features as space or time.
+Now, what is clearly an abstraction? The roots of the word define something abstracted as “something pulled or drawn away”. This is exactly the process that the mind engages in when grouping ideas as mentioned above. It converts the real element to a mental appearance (or idea) and detaches the latter from any real-life features as space or time.
 
 ![Space and Time](/images/abstraction-mind-computers/abstraction-2.png#center)
 
@@ -82,4 +82,3 @@ The language will be translated to assembly language via a compiler, and then th
 And above all, are visual languages or even the input from a user. The input will trigger high level language instructions that will trigger the cascade stated before.
 
 All these different levels in the computer language are all linked thanks to abstraction. This process is similar to the abstract ideas that John Locke discussed in the 17th century. Similarly to specific ideas in the mind transformed to general ideas by abstraction, the specific that is the electric current is translated through multiple layers to the level of understanding for humans. The electric current that is real, is seen as a mental appearance, detached from reality, transformed into natural word languages. These natural word languages are programming languages that we use nowadays and that dictates a large part of our societies.
-1
