@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "gaut.io"
 title: Gautier Marechal
 paginate: 5
 theme: PaperMod
@@ -24,6 +24,7 @@ params:
 
 taxonomies:
   category: categories
+  project: projects
 
 outputs:
   home:
@@ -35,7 +36,7 @@ languages:
   en:
     languageName: "English"
     languageAltTitle: English
-    weight: 1
+    weight: 10
     homeInfoParams:
       Title: Gautier Marechal 🌞
       Content: >
@@ -53,24 +54,24 @@ languages:
         - identifier: posts
           name: Posts
           url: /posts/
-          weight: 1
+          weight: 10
         - identifier: projects
           name: Projects
           url: /projects/
-          weight: 2
+          weight: 20
         - identifier: categories
           name: Categories
           url: /categories/
-          weight: 3
+          weight: 30
         - identifier: search
           name: Search
           url: search/
-          weight: 4
+          weight: 40
 
   fr:
     languageName: ":fr:"
     languageAltTitle: French
-    weight: 2
+    weight: 20
     title: Gautier Marechal
     homeInfoParams:
       Title: Gautier Marechal 🌞
@@ -89,16 +90,16 @@ languages:
         - identifier: posts
           name: Publications
           url: /fr/posts/
-          weight: 1
+          weight: 10
         - identifier: projects
           name: Projets
           url: /fr/projects/
-          weight: 2
+          weight: 20
         - identifier: categories
           name: Catégories
           url: /fr/categories/
-          weight: 3
+          weight: 30
         - identifier: search
           name: Rechercher
           url: /fr/search/
-          weight: 4
+          weight: 40

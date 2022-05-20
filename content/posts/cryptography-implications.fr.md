@@ -92,4 +92,4 @@ Le modèle des grandes sociétés Internet pourrait commencer à changer. A titr
 
 Ce modèle de pouvoir est également (majoritairement) présent dans Bitcoin. Créés en 2009, les fondamentaux du Bitcoin reposent principalement sur la cryptographie. La cryptographie à clé asymétrique est utilisée dans Bitcoin, permettant aux utilisateurs d'effectuer des transactions privées, empêchant tout tiers en tant que gouvernement ou entreprise d'interférer dans le processus. C'est la première fois dans l'histoire que des individus ont ce pouvoir entre leurs mains. Tout cela grâce aux mathématiques et à la cryptographie.
 
-Si un outil de communication et une monnaie deviennent totalement souverains à partir d'une instance centralisée, quelle est la limite ? Ce modèle peut s'appliquer à tout autre outil en ligne, la cryptographie étant le principal pilier de ce système révolutionnaire.
+Si un outil de communication et une monnaie deviennent totalement souverains, distincts d'une instance centralisée, quelle est la limite ? Ce modèle peut s'appliquer à tout autre outil en ligne, la cryptographie étant le principal pilier de ce système révolutionnaire.

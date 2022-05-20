@@ -92,4 +92,4 @@ The model of huge internet companies might start shifting. As an example, the ap
 
 This model of power is also (mostly) present in Bitcoin. Created in 2009, Bitcoin fundamentals rely mostly on cryptography. Asymmetric key cryptography is used in Bitcoin, allowing users to privately transact, stopping any third party as a government or a company to interfere in the process. It is the first time in history that individuals have this power in their hands. All thanks to mathematics and cryptography.
 
-If a communication tool and a currency become completely sovereign from a centralized instance, what is the limit? This model can be applicable to any other online tool with cryptography being the main pillar of this revolutionary system.
+If a communication tool and a currency become completely sovereign, distinct from a centralized instance, what is the limit? This model can be applicable to any other online tool with cryptography being the main pillar of this revolutionary system.
