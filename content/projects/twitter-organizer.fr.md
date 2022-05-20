@@ -11,7 +11,7 @@ categories:
   - Python
   - Twitter API
 cover:
-  image: "../images/twitter-organizer/twitter-organizer-thumbnail.png"
+  image: "/images/twitter-organizer/twitter-organizer-thumbnail.png"
   alt: "Twitter Organizer Thumbnail"
   relative: false
 ShowToc: false

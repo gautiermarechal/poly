@@ -6,7 +6,7 @@ categories:
   - React
   - NodeJS
 cover:
-  image: "../images/booking-appointment-system/booking-appointment-system-thumbnail.png"
+  image: "/images/booking-appointment-system/booking-appointment-system-thumbnail.png"
   alt: "Système de réservation Thumbnail"
   relative: false
 ShowToc: false

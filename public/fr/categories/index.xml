@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Gautier Marechal</title>
+    <link>https://gaut.io/fr/categories/</link>
+    <description>Recent content in Categories on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Apr 2022 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arduino</title>
+      <link>https://gaut.io/fr/categories/arduino/</link>
+      <pubDate>Sat, 23 Apr 2022 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electroniques</title>
+      <link>https://gaut.io/fr/categories/electroniques/</link>
+      <pubDate>Sat, 23 Apr 2022 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/electroniques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://gaut.io/fr/categories/hardware/</link>
+      <pubDate>Sat, 23 Apr 2022 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Développement Web</title>
+      <link>https://gaut.io/fr/categories/d%C3%A9veloppement-web/</link>
+      <pubDate>Wed, 01 Sep 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/d%C3%A9veloppement-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuxt</title>
+      <link>https://gaut.io/fr/categories/nuxt/</link>
+      <pubDate>Wed, 01 Sep 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/nuxt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>https://gaut.io/fr/categories/typescript/</link>
+      <pubDate>Wed, 01 Sep 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>https://gaut.io/fr/categories/bitcoin/</link>
+      <pubDate>Wed, 24 Mar 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptographie</title>
+      <link>https://gaut.io/fr/categories/cryptographie/</link>
+      <pubDate>Wed, 24 Mar 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/cryptographie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informatique</title>
+      <link>https://gaut.io/fr/categories/informatique/</link>
+      <pubDate>Wed, 24 Mar 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/informatique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science</title>
+      <link>https://gaut.io/fr/categories/science/</link>
+      <pubDate>Wed, 24 Mar 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophie</title>
+      <link>https://gaut.io/fr/categories/philosophie/</link>
+      <pubDate>Mon, 08 Feb 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/philosophie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychologie</title>
+      <link>https://gaut.io/fr/categories/psychologie/</link>
+      <pubDate>Mon, 08 Feb 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/psychologie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philsophie</title>
+      <link>https://gaut.io/fr/categories/philsophie/</link>
+      <pubDate>Mon, 01 Feb 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/philsophie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physique</title>
+      <link>https://gaut.io/fr/categories/physique/</link>
+      <pubDate>Mon, 01 Feb 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/physique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NodeJS</title>
+      <link>https://gaut.io/fr/categories/nodejs/</link>
+      <pubDate>Tue, 01 Dec 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://gaut.io/fr/categories/react/</link>
+      <pubDate>Tue, 01 Dec 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Express</title>
+      <link>https://gaut.io/fr/categories/express/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://gaut.io/fr/categories/javascript/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgresSQL</title>
+      <link>https://gaut.io/fr/categories/postgressql/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/postgressql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://gaut.io/fr/categories/python/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter API</title>
+      <link>https://gaut.io/fr/categories/twitter-api/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/twitter-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recharts</title>
+      <link>https://gaut.io/fr/categories/recharts/</link>
+      <pubDate>Fri, 01 May 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/categories/recharts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

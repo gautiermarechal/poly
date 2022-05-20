@@ -7,7 +7,7 @@ categories:
   - Recharts
   - Bitcoin
 cover:
-  image: "../images/bitcoin-profitable-days/bitcoin-profitable-days-thumbnail.gif"
+  image: "/images/bitcoin-profitable-days/bitcoin-profitable-days-thumbnail.gif"
   alt: "Bitcoin Profitable Days Chart Thumbnail"
   relative: false
 ShowToc: false

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Typescript on Gautier Marechal</title>
+    <link>https://gaut.io/fr/categories/typescript/</link>
+    <description>Recent content in Typescript on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Sep 2021 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/fr/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Singular</title>
+      <link>https://gaut.io/fr/projects/singular/</link>
+      <pubDate>Wed, 01 Sep 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/singular/</guid>
+      <description>Développement d&amp;rsquo;un agrégateur de données pour les organisateurs d&amp;rsquo;événements musicaux, afin de faciliter le processus de recherche de nouveaux artistes pour les spectacles. Toutes les données proviennent de différentes API de l&amp;rsquo;industrie musicale. Ce projet est dans le cadre d&amp;rsquo;une mission freelance.
+Date Septembre 2021 - Décembre 2021
+Technologies  Vue Nuxt Typescript Tailwind  Client https://singularagency.com
+Github </description>
+    </item>
+    
+    <item>
+      <title>Destination 365</title>
+      <link>https://gaut.io/fr/projects/destination-365/</link>
+      <pubDate>Fri, 01 Jan 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/destination-365/</guid>
+      <description>Nous travaillons en équipe de 6 développeurs selon la méthode AGILE, sur un projet appelé Destination 365. La plateforme permet aux salons sur site d&amp;rsquo;acquérir une présence en ligne pour leurs participants. Les utilisateurs peuvent assister à des sessions, se connecter aux exposants et bien d&amp;rsquo;autres possibilités. Ce projet s&amp;rsquo;est deroulé dans le cadre de mon experience chez Sherpa Solutions à Montréal, Canada.
+Date Janvier 2021 - Décembre 2021
+Technologies  Vue Nuxt Typescript GraphQL Bootstrap  Company https://sherpa-solutions.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nuxt on Gautier Marechal</title>
+    <link>https://gaut.io/categories/nuxt/</link>
+    <description>Recent content in Nuxt on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Sep 2021 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/categories/nuxt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Singular</title>
+      <link>https://gaut.io/projects/singular/</link>
+      <pubDate>Wed, 01 Sep 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/singular/</guid>
+      <description>Developing a data aggregator for music events organizers, in order to facilitate the process of finding new artists for the shows. All the data comes from different APIs of the music industry. This project is a freelance mission.
+Date September 2021 - December 2021
+Technology  Vue Nuxt Typescript Tailwind  Client https://singularagency.com
+Github Demo </description>
+    </item>
+    
+    <item>
+      <title>Destination 365</title>
+      <link>https://gaut.io/projects/destination-365/</link>
+      <pubDate>Fri, 01 Jan 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/destination-365/</guid>
+      <description>We work as a team of 6 developers under the AGILE method, on a project called Destination 365. The platform allows on-site shows to acquire an online presence for their participants. Users can attend sessions, connect to exhibitors, and many other possibilities.
+Date January 2021 - December 2021
+Technology  Vue Nuxt Typescript GraphQL Bootstrap  Company https://sherpa-solutions.com
+Github </description>
+    </item>
+    
+  </channel>
+</rss>

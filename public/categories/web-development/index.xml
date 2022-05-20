@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Development on Gautier Marechal</title>
+    <link>https://gaut.io/categories/web-development/</link>
+    <description>Recent content in Web Development on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Sep 2021 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Singular</title>
+      <link>https://gaut.io/projects/singular/</link>
+      <pubDate>Wed, 01 Sep 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/singular/</guid>
+      <description>Developing a data aggregator for music events organizers, in order to facilitate the process of finding new artists for the shows. All the data comes from different APIs of the music industry. This project is a freelance mission.
+Date September 2021 - December 2021
+Technology  Vue Nuxt Typescript Tailwind  Client https://singularagency.com
+Github Demo </description>
+    </item>
+    
+    <item>
+      <title>Destination 365</title>
+      <link>https://gaut.io/projects/destination-365/</link>
+      <pubDate>Fri, 01 Jan 2021 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/destination-365/</guid>
+      <description>We work as a team of 6 developers under the AGILE method, on a project called Destination 365. The platform allows on-site shows to acquire an online presence for their participants. Users can attend sessions, connect to exhibitors, and many other possibilities.
+Date January 2021 - December 2021
+Technology  Vue Nuxt Typescript GraphQL Bootstrap  Company https://sherpa-solutions.com
+Github </description>
+    </item>
+    
+    <item>
+      <title>Connect the Dots</title>
+      <link>https://gaut.io/projects/connect-the-dots/</link>
+      <pubDate>Tue, 01 Dec 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/connect-the-dots/</guid>
+      <description>Developed a web app where users can connect books by their concepts. The user can choose 2 or more books and post a connection as an article or a template that we provide on the platform. The user can also view other people&amp;rsquo;s connections.
+Date December 2020
+Technology  React Javascript NodeJS Express MongoDB Styled-components  Github https://github.com/gautiermarechal/connect_the_dots</description>
+    </item>
+    
+    <item>
+      <title>Booking Appointment System</title>
+      <link>https://gaut.io/projects/booking-appointment-system/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/booking-appointment-system/</guid>
+      <description>Developed a booking system for a barber shop in Montreal. The customer can book a time slot with a chosen barber. The barbers have an admin platform to manage appointments.
+Date August 2020
+Technology  React Javascript NodeJS Express MongoDB  Github https://github.com/gautiermarechal/booking-appointment-system-m-corte</description>
+    </item>
+    
+    <item>
+      <title>Twitter Organizer</title>
+      <link>https://gaut.io/projects/twitter-organizer/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/twitter-organizer/</guid>
+      <description>Developing a Twitter bot that allows the user to categorize a tweet or a thread under a category. The tweet will be sent to the database and be rendered on the web app where the user can log in and browse all categorized tweets and all categories.
+Date August 2020 - December 2020
+Technology  React Javascript NodeJS Express PostgresSQL Python Twitter API  Github https://github.com/gautiermarechal/twitter_organizer_front_end</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Profitable Days</title>
+      <link>https://gaut.io/projects/bitcoin-profitable-days/</link>
+      <pubDate>Fri, 01 May 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/bitcoin-profitable-days/</guid>
+      <description>Created a chart that displays all the days when it would have been profitable to buy BTC, compared to today&amp;rsquo;s price. Profitable days are in green, and non-profitable in red.
+Date May 2020
+Technology  React Javascript Recharts Bitcoin API  Github https://github.com/gautiermarechal/btc-profitable-days-chart</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Cryptography and its implication in the past, in the present, and in the future | Gautier Marechal</title>
+<meta name="keywords" content="">
+<meta name="description" content="Human success on the planet has been made possible thanks to our ability to communicate in the purpose of solving complex problems as groups. However, some groups have not always agreed together, causing multiple conflicts that shaped our history. Cryptography has shown itself as a tool to make communication between two parties secret to any other partie. This tool has been way more important than we think, and we will explore how it shaped history in the past, in the present and in the future.">
+<meta name="author" content="">
+<link rel="canonical" href="https://gaut.io/posts/cryptography-implications/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css" integrity="sha256-7I2jZsovtkdTfMt6j2&#43;ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://gaut.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://gaut.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://gaut.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://gaut.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://gaut.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://gaut.io/posts/cryptography-implications/">
+<link rel="alternate" hreflang="fr" href="https://gaut.io/fr/posts/cryptography-implications/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Cryptography and its implication in the past, in the present, and in the future" />
+<meta property="og:description" content="Human success on the planet has been made possible thanks to our ability to communicate in the purpose of solving complex problems as groups. However, some groups have not always agreed together, causing multiple conflicts that shaped our history. Cryptography has shown itself as a tool to make communication between two parties secret to any other partie. This tool has been way more important than we think, and we will explore how it shaped history in the past, in the present and in the future." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gaut.io/posts/cryptography-implications/" />
+<meta property="og:image" content="https://gaut.io/images/cryptography-implications/cryprography-0.jpeg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-24T23:36:38&#43;02:00" />
+<meta property="article:modified_time" content="2021-03-24T23:36:38&#43;02:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://gaut.io/images/cryptography-implications/cryprography-0.jpeg" />
+<meta name="twitter:title" content="Cryptography and its implication in the past, in the present, and in the future"/>
+<meta name="twitter:description" content="Human success on the planet has been made possible thanks to our ability to communicate in the purpose of solving complex problems as groups. However, some groups have not always agreed together, causing multiple conflicts that shaped our history. Cryptography has shown itself as a tool to make communication between two parties secret to any other partie. This tool has been way more important than we think, and we will explore how it shaped history in the past, in the present and in the future."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://gaut.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Cryptography and its implication in the past, in the present, and in the future",
+      "item": "https://gaut.io/posts/cryptography-implications/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Cryptography and its implication in the past, in the present, and in the future",
+  "name": "Cryptography and its implication in the past, in the present, and in the future",
+  "description": "Human success on the planet has been made possible thanks to our ability to communicate in the purpose of solving complex problems as groups. However, some groups have not always agreed together, causing multiple conflicts that shaped our history. Cryptography has shown itself as a tool to make communication between two parties secret to any other partie. This tool has been way more important than we think, and we will explore how it shaped history in the past, in the present and in the future.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Human success on the planet has been made possible thanks to our ability to communicate in the purpose of solving complex problems as groups. However, some groups have not always agreed together, causing multiple conflicts that shaped our history. Cryptography has shown itself as a tool to make communication between two parties secret to any other partie. This tool has been way more important than we think, and we will explore how it shaped history in the past, in the present and in the future. In a world where huge entities and governments are more and more present in individuals’ daily lives, securing data with cryptography will be an essential tool to have in hand.\nCryptography has existed for thousands of years.\nThe first form of cryptography has been observed in ancient Egypt on tomb walls in 1900 BC. Unusual symbols were carved on the tomb of Knumotep II to confuse the reader and enhance mystery.\nMoreover, in 5 BC, spartans created a cryptographic device called a Scytale. The tool was a stick wrapped with a piece of leather carrying the message. It was readable only when wrapped on this particular diameter cylinder allowing letters to align. The recipient of the message needed the exact same diameter Scytale to decrypt the message.\nAnother great example is the Caesar cipher, named after the emperor who created this technique to secretly communicate in an era of treachery. The technique is known as substitution, consisting of each letter being replaced with another that only the recipient knows.\nThere are multiple other historic examples of cryptography used in the ancient world, that allowed interactions to remain secret between two parties.\nDuring history, cryptography was often used by the governing monarchs or emperors to communicate internally. The communications encryptions were often dedicated for military planning or any religious piece of writings. Julius Caesar used his famous cipher to organize strategies with his generals. The Greek Magical Papyri from 100 BCE contained rituals, hymns and spells written in a special language with ancient greek that was impossible to read for a normal reader. Creating encrypted messages was meant to keep communication secrets within groups, and form exclusivity for members of the group. The ciphers were only known by these members.\nHowever, in the 700s, Al-Khali, an arab philologist wrote the first documentation of a cryptographic techniques standard called Book of Cryptographic Messages. This was the first time a formal documentation of techniques existed. This gave a new approach vision to cryptography. The science continued to be nourished in the 800s, when Al-Kindi invented frequency analysis, the measure of letters frequency in the arab language. This was the first ever known cryptography breaking technique ever invented and marked the start of the field. However, we would not see any major advances until WW2.\nDuring WW2, Germans created and used the famous rotor machine called Enigma. The machine was basically made of a keyboard, a lampboard and a set of rotors in between. Typing a letter on the keyboard would lighten a different letter on the lampboard. This substitution was made possible via specific wiring controlled by the rotor, that would change the connections depending on the configuration that the user could change manually. This allowed the machine to operate a polyalphabetic substitution, meaning that each letter could be replaced by different letters. The alphabet was replaceable by multiple alphabets. All the functioning was electromechanical.\nThis machine was a major technological advancement at the time, and so was its breaking by the British with Ultra. Germans communicated military information via morse codes on radio that was written initially with Enigma. Communications were unbreakable and allowed Germans to take advantage of the field. When the British broke the machine, Allies took back the advantage to win and end the war. According to estimates, the war was shortened by two to four years with the breaking.\nAll the previous cryptographic techniques or machines were mainly using lexicography and hardware. With the arrival of computing, the same principle of hiding messages had been translated to software.\nModern cryptography makes use of mathematics to encrypt data into an unreadable data. The message sent is encrypted into a set of unreadable characters, via a complex mathematical algorithm.\nThere are two main types of cryptography techniques nowadays: symmetric-key and asymmetric-key (or public-key cryptography).\nSymmetric Key Symmetric key cryptography is when the sender and the receiver share the same key encrypt and decrypt the message. If Alice sends a message to Bob, the message will be encrypted with Alice’s key and Bob will use this same key to decrypt the message. Symmetric keys are implemented as three different methods: block ciphers, stream ciphers and hash functions.\nTo make it simple, block ciphers are encryption of fixed-length f blocks of texts and stream ciphers are encrypting each single character by combining them to digits in the key stream.\nBoth are dictated by a deterministic algorithm.\nA deterministic algorithm is an algorithm that, given an input, will always produce the same output with that specific input.\nFinally, hash functions are one way functions that will encrypt a message input into a fixed array output of digits. Hash functions are not reversible and the only way to find the input is to brute force the function and match all the results with the fixed array we have. However, the number of possibilities is enormous. This is what makes hash functions a powerful tool.\nThe main problem with symmetric key cryptography is to exchange the key between the sender and the recipient. This allows for security breach as usually nowadays, cryptography is operated on the internet and the two parties cannot meet in secret to exchange the key. This is where asymmetric cryptography comes into play.\nAsymmetric Key In 1976, researchers highlighted the security issue of having one single key for encryption and decryption and proposed a system of a public key and private key pair. An encrypted communication would use a public-key to encrypt the message, and a private key to decrypt it. The public key can be distributed freely whereas the private key must remain secret. Both keys are mathematically related but this relation is complex and requires a difficult problem solving.\nThe main advance in this method is that the receiver who uses the public key to decrypt the message, in reality verifies that the message has been created by someone who possesses the corresponding private key.\nLet’s say, Alice and Bob both have key pairs. Alice knows Bob’s public key and the contrary is also true. If Alice encrypts a message with Bob’s public key and sends it to Bob, Bob will be able to use his private key to verify that the message has been sent and encrypted by Alice with Bob’s public key. Therefore, the communication is completely secure and both parties do not need to exchange anything privately. Everything is based on verification. If a third party, named John intercepts the message, he will know Bob’s public key but won’t be able to verify the message with its private key. Because a pair of keys are mathematically related, John’s private key does not correspond to Bob’s public key. He would need Bob’s private key to decrypt the message. This cryptography solution based on verification has been a groundbreaking advance in the field, but also in history in general.\nAs stated above, cryptography has always been used in history by large instances as military forces and governments. With the arrival of computing and the internet, the power is incrementally shifting from vertical to horizontal. Individuals nowadays have way more power than before compared with high instances as governments. The equality of opportunities has significantly increased with the internet, opening a large set of path alternatives for people.\nThanks to the internet people are more free, but still large entities control a large amount of internet users. Huge companies as Google, Facebook or Amazon possess private data of their users, breaking the decentralized model cryptography has to offer. However, this is subject to change. People’s trust toward these giants is shifting, as the awareness of the situation is increasing. Scandals as Cambridge Analytica highlight the excess of power these instances possess.\nThe internet has become a panopticon. A panopticon was a type of architecture used in prisons, designed by the philosopher Jeremy Bentham. The concept was that a single guard was placed in the middle of a circular room, allowing all the prisoners to be possibly observed by the guard. It was physically impossible for the guard to monitor all the inmates. The main idea was that the inmates would feel constantly observed, not knowing where the guard would look at a certain point in time. They would constantly act as they were being watched. This is exactly the same feeling the internet is giving to people. A psychological war is constantly engaged in our private activities on the web.\nThe model of huge internet companies might start shifting. As an example, the app Signal to communicate privately marks the arrival of a new model: an open-source NGO, relied entirely on donations and verification of peer-reviewers. Reviewers who are people like you and me, verify that the Signal cryptographic protocols used to encrypt message communications are correct and trusty. This model starts to grab the attention of many users. In January 2021, 20 million users shifted from Whatsapp to Signal after Facebook announced it would be able to access Whatsapp data.\nThis model of power is also (mostly) present in Bitcoin. Created in 2009, Bitcoin fundamentals rely mostly on cryptography. Asymmetric key cryptography is used in Bitcoin, allowing users to privately transact, stopping any third party as a government or a company to interfere in the process. It is the first time in history that individuals have this power in their hands. All thanks to mathematics and cryptography.\nIf a communication tool and a currency become completely sovereign, distinct from a centralized instance, what is the limit? This model can be applicable to any other online tool with cryptography being the main pillar of this revolutionary system.\n",
+  "wordCount" : "1683",
+  "inLanguage": "en",
+  "image":"https://gaut.io/images/cryptography-implications/cryprography-0.jpeg","datePublished": "2021-03-24T23:36:38+02:00",
+  "dateModified": "2021-03-24T23:36:38+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gaut.io/posts/cryptography-implications/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gautier Marechal",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gaut.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://gaut.io/" accesskey="h" title="Gautier Marechal (Alt + H)">Gautier Marechal</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://gaut.io/fr/" title="French"
+                            aria-label=":fr:">🇫🇷</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://gaut.io/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gaut.io/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gaut.io/categories" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gaut.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://gaut.io/">Home</a>&nbsp;»&nbsp;<a href="https://gaut.io/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Cryptography and its implication in the past, in the present, and in the future
+    </h1>
+    <div class="post-meta"><span title='2021-03-24 23:36:38 +0200 +0200'>March 24, 2021</span>&nbsp;·&nbsp;8 min&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="https://gaut.io/fr/posts/cryptography-implications/">🇫🇷</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://gaut.io/images/cryptography-implications/cryprography-0.jpeg" alt="Cryptography">
+        <p>Antique keys</p>
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#symmetric-key" aria-label="Symmetric Key">Symmetric Key</a></li>
+                <li>
+                    <a href="#asymmetric-key" aria-label="Asymmetric Key">Asymmetric Key</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Human success on the planet has been made possible thanks to our ability to communicate in the purpose of solving complex problems as groups. However, some groups have not always agreed together, causing multiple conflicts that shaped our history. Cryptography has shown itself as a tool to make communication between two parties secret to any other partie. This tool has been way more important than we think, and we will explore how it shaped history in the past, in the present and in the future. In a world where huge entities and governments are more and more present in individuals’ daily lives, securing data with cryptography will be an essential tool to have in hand.</p>
+<p>Cryptography has existed for thousands of years.</p>
+<p>The first form of cryptography has been observed in ancient Egypt on tomb walls in 1900 BC. Unusual symbols were carved on the tomb of Knumotep II to confuse the reader and enhance mystery.</p>
+<p>Moreover, in 5 BC, spartans created a cryptographic device called a Scytale. The tool was a stick wrapped with a piece of leather carrying the message. It was readable only when wrapped on this particular diameter cylinder allowing letters to align. The recipient of the message needed the exact same diameter Scytale to decrypt the message.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-1.png" alt="Spartan Scytale"  title="Spartan Scytale"  />
+</p>
+<p>Another great example is the Caesar cipher, named after the emperor who created this technique to secretly communicate in an era of treachery. The technique is known as substitution, consisting of each letter being replaced with another that only the recipient knows.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-2.png#center" alt="Caesar Cipher"  title="Caesar Cipher"  />
+</p>
+<p>There are multiple other historic examples of cryptography used in the ancient world, that allowed interactions to remain secret between two parties.</p>
+<p>During history, cryptography was often used by the governing monarchs or emperors to communicate internally. The communications encryptions were often dedicated for military planning or any religious piece of writings. Julius Caesar used his famous cipher to organize strategies with his generals. The Greek Magical Papyri from 100 BCE contained rituals, hymns and spells written in a special language with ancient greek that was impossible to read for a normal reader. Creating encrypted messages was meant to keep communication secrets within groups, and form exclusivity for members of the group. The ciphers were only known by these members.</p>
+<p>However, in the 700s, Al-Khali, an arab philologist wrote the first documentation of a cryptographic techniques standard called Book of Cryptographic Messages. This was the first time a formal documentation of techniques existed. This gave a new approach vision to cryptography. The science continued to be nourished in the 800s, when Al-Kindi invented frequency analysis, the measure of letters frequency in the arab language. This was the first ever known cryptography breaking technique ever invented and marked the start of the field. However, we would not see any major advances until WW2.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-3.png#center" alt="Generic Frequency Analysis Table"  title="Generic Frequency Analysis Table"  />
+</p>
+<p>During WW2, Germans created and used the famous rotor machine called Enigma. The machine was basically made of a keyboard, a lampboard and a set of rotors in between. Typing a letter on the keyboard would lighten a different letter on the lampboard. This substitution was made possible via specific wiring controlled by the rotor, that would change the connections depending on the configuration that the user could change manually. This allowed the machine to operate a polyalphabetic substitution, meaning that each letter could be replaced by different letters. The alphabet was replaceable by multiple alphabets. All the functioning was electromechanical.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-4.png#center" alt="Enigma Machine used by Nazis during WW2"  title="Enigma Machine used by Nazis during WW2"  />
+</p>
+<p>This machine was a major technological advancement at the time, and so was its breaking by the British with Ultra. Germans communicated military information via morse codes on radio that was written initially with Enigma. Communications were unbreakable and allowed Germans to take advantage of the field. When the British broke the machine, Allies took back the advantage to win and end the war. According to estimates, the war was shortened by two to four years with the breaking.</p>
+<p>All the previous cryptographic techniques or machines were mainly using lexicography and hardware. With the arrival of computing, the same principle of hiding messages had been translated to software.</p>
+<p>Modern cryptography makes use of mathematics to encrypt data into an unreadable data. The message sent is encrypted into a set of unreadable characters, via a complex mathematical algorithm.</p>
+<p>There are two main types of cryptography techniques nowadays: symmetric-key and asymmetric-key (or public-key cryptography).</p>
+<h2 id="symmetric-key">Symmetric Key<a hidden class="anchor" aria-hidden="true" href="#symmetric-key">#</a></h2>
+<p>Symmetric key cryptography is when the sender and the receiver share the same key encrypt and decrypt the message. If Alice sends a message to Bob, the message will be encrypted with Alice’s key and Bob will use this same key to decrypt the message. Symmetric keys are implemented as three different methods: block ciphers, stream ciphers and hash functions.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-5.png#center" alt="Symmetric Key Cryptographic Method Schema"  title="Symmetric Key Cryptographic Method Schema"  />
+</p>
+<p>To make it simple, block ciphers are encryption of fixed-length f blocks of texts and stream ciphers are encrypting each single character by combining them to digits in the key stream.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-6.png#center" alt="Block Cipher Schema"  title="Block Cipher Schema"  />
+</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-7.png#center" alt="Stream Cipher Schema"  title="Stream Cipher Schema"  />
+</p>
+<p>Both are dictated by a deterministic algorithm.</p>
+<p>A deterministic algorithm is an algorithm that, given an input, will always produce the same output with that specific input.</p>
+<p>Finally, hash functions are one way functions that will encrypt a message input into a fixed array output of digits. Hash functions are not reversible and the only way to find the input is to brute force the function and match all the results with the fixed array we have. However, the number of possibilities is enormous. This is what makes hash functions a powerful tool.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-8.png#center" alt="Hash Function Schema"  title="Hash Function Schema"  />
+</p>
+<p>The main problem with symmetric key cryptography is to exchange the key between the sender and the recipient. This allows for security breach as usually nowadays, cryptography is operated on the internet and the two parties cannot meet in secret to exchange the key. This is where asymmetric cryptography comes into play.</p>
+<h2 id="asymmetric-key">Asymmetric Key<a hidden class="anchor" aria-hidden="true" href="#asymmetric-key">#</a></h2>
+<p>In 1976, researchers highlighted the security issue of having one single key for encryption and decryption and proposed a system of a public key and private key pair. An encrypted communication would use a public-key to encrypt the message, and a private key to decrypt it. The public key can be distributed freely whereas the private key must remain secret. Both keys are mathematically related but this relation is complex and requires a difficult problem solving.</p>
+<p>The main advance in this method is that the receiver who uses the public key to decrypt the message, in reality verifies that the message has been created by someone who possesses the corresponding private key.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-9.png#center" alt="Asymmetric Key Schema"  title="Asymmetric Key Schema"  />
+</p>
+<p>Let’s say, Alice and Bob both have key pairs. Alice knows Bob’s public key and the contrary is also true. If Alice encrypts a message with Bob’s public key and sends it to Bob, Bob will be able to use his private key to verify that the message has been sent and encrypted by Alice with Bob’s public key. Therefore, the communication is completely secure and both parties do not need to exchange anything privately. Everything is based on verification. If a third party, named John intercepts the message, he will know Bob’s public key but won’t be able to verify the message with its private key. Because a pair of keys are mathematically related, John’s private key does not correspond to Bob’s public key. He would need Bob’s private key to decrypt the message.
+This cryptography solution based on verification has been a groundbreaking advance in the field, but also in history in general.</p>
+<p>As stated above, cryptography has always been used in history by large instances as military forces and governments. With the arrival of computing and the internet, the power is incrementally shifting from vertical to horizontal. Individuals nowadays have way more power than before compared with high instances as governments. The equality of opportunities has significantly increased with the internet, opening a large set of path alternatives for people.</p>
+<p>Thanks to the internet people are more free, but still large entities control a large amount of internet users. Huge companies as Google, Facebook or Amazon possess private data of their users, breaking the decentralized model cryptography has to offer. However, this is subject to change. People’s trust toward these giants is shifting, as the awareness of the situation is increasing. Scandals as Cambridge Analytica highlight the excess of power these instances possess.</p>
+<p>The internet has become a panopticon. A panopticon was a type of architecture used in prisons, designed by the philosopher Jeremy Bentham. The concept was that a single guard was placed in the middle of a circular room, allowing all the prisoners to be possibly observed by the guard. It was physically impossible for the guard to monitor all the inmates. The main idea was that the inmates would feel constantly observed, not knowing where the guard would look at a certain point in time. They would constantly act as they were being watched. This is exactly the same feeling the internet is giving to people. A psychological war is constantly engaged in our private activities on the web.</p>
+<p><img loading="lazy" src="/images/cryptography-implications/cryptography-10.png#center" alt="Panopticon Prison"  title="Panopticon Prison"  />
+</p>
+<p>The model of huge internet companies might start shifting. As an example, the app Signal to communicate privately marks the arrival of a new model: an open-source NGO, relied entirely on donations and verification of peer-reviewers. Reviewers who are people like you and me, verify that the Signal cryptographic protocols used to encrypt message communications are correct and trusty. This model starts to grab the attention of many users. In January 2021, 20 million users shifted from Whatsapp to Signal after Facebook announced it would be able to access Whatsapp data.</p>
+<p>This model of power is also (mostly) present in Bitcoin. Created in 2009, Bitcoin fundamentals rely mostly on cryptography. Asymmetric key cryptography is used in Bitcoin, allowing users to privately transact, stopping any third party as a government or a company to interfere in the process. It is the first time in history that individuals have this power in their hands. All thanks to mathematics and cryptography.</p>
+<p>If a communication tool and a currency become completely sovereign, distinct from a centralized instance, what is the limit? This model can be applicable to any other online tool with cryptography being the main pillar of this revolutionary system.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://gaut.io/">Gautier Marechal</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

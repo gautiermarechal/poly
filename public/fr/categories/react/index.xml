@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React on Gautier Marechal</title>
+    <link>https://gaut.io/fr/categories/react/</link>
+    <description>Recent content in React on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Dec 2020 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/fr/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect the Dots</title>
+      <link>https://gaut.io/fr/projects/connect-the-dots/</link>
+      <pubDate>Tue, 01 Dec 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/connect-the-dots/</guid>
+      <description>Développement d&amp;rsquo;une application Web où les utilisateurs peuvent connecter des livres par leurs concepts. L&amp;rsquo;utilisateur peut choisir 2 livres ou plus et publier une connexion sous forme d&amp;rsquo;article ou de modèle que nous fournissons sur la plateforme. L&amp;rsquo;utilisateur peut également voir les connexions d&amp;rsquo;autres personnes.
+Date Décembre 2020
+Technologies  React Javascript NodeJS Express MongoDB Styled-components  Github https://github.com/gautiermarechal/connect_the_dots</description>
+    </item>
+    
+    <item>
+      <title>Système de réservation</title>
+      <link>https://gaut.io/fr/projects/booking-appointment-system/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/booking-appointment-system/</guid>
+      <description>Développement d&amp;rsquo;un système de réservation pour un salon de coiffure à Montréal. Le client peut réserver un créneau horaire avec un barbier de son choix. Les barbiers disposent d&amp;rsquo;une plateforme d&amp;rsquo;administration pour gérer les rendez-vous.
+Date Aout 2020
+Technologies  React Javascript NodeJS Express MongoDB  Github https://github.com/gautiermarechal/booking-appointment-system-m-corte</description>
+    </item>
+    
+    <item>
+      <title>Twitter Organizer</title>
+      <link>https://gaut.io/fr/projects/twitter-organizer/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/twitter-organizer/</guid>
+      <description>Développement d&amp;rsquo;un bot Twitter qui permet à l&amp;rsquo;utilisateur de catégoriser un tweet ou un thread dans une catégorie. Le tweet sera envoyé à la base de données et rendu sur l&amp;rsquo;application Web où l&amp;rsquo;utilisateur qui peut se connecter et parcourir tous les tweets catégorisés ainsi que toutes les catégories existantes.
+Date Août 2020
+Technologies  React Javascript NodeJS Express PostgresSQL Python Twitter API  Github https://github.com/gautiermarechal/twitter_organizer_front_end</description>
+    </item>
+    
+    <item>
+      <title>Graphique jours rentables Bitcoin</title>
+      <link>https://gaut.io/fr/projects/bitcoin-profitable-days/</link>
+      <pubDate>Fri, 01 May 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/bitcoin-profitable-days/</guid>
+      <description>Création d&amp;rsquo;un graphique qui affiche tous les jours où il aurait été rentable d&amp;rsquo;acheter du BTC, par rapport au prix d&amp;rsquo;aujourd&amp;rsquo;hui. Les jours rentables sont en vert et non rentables en rouge.
+Date Mai 2020
+Technologies  React Javascript Recharts Bitcoin API  Github https://github.com/gautiermarechal/btc-profitable-days-chart</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@ categories:
   - Electroniques
   - Hardware
 cover:
-  image: "../images/automatic-greenhouse/automatic-greenhouse-thumbnail.jpeg"
+  image: "/images/automatic-greenhouse/automatic-greenhouse-thumbnail.jpeg"
   alt: "Serre Automatique image"
   relative: false
 ShowToc: false

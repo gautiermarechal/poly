@@ -2,7 +2,7 @@
 title: "La thermodynamique et l'esprit humain"
 date: 2021-02-01T23:36:38+02:00
 cover:
-  image: "../images/thermo-and-human-mind/thermo-0.png"
+  image: "/images/thermo-and-human-mind/thermo-0.png"
   alt: "Thermo"
   caption: "Interaction entre deux systèmes isolés"
   relative: false

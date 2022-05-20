@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>L&#39;abstraction dans l&#39;esprit et les ordinateurs | Gautier Marechal</title>
+<meta name="keywords" content="">
+<meta name="description" content="Le concept d&rsquo;abstraction est fondamentalement essentiel et enraciné dans l&rsquo;existence humaine. Depuis 200 000 ans, les humains ont accumulé un ensemble immense de connaissances dans de nombreux domaines différents. Cela a été rendu possible grâce à l&rsquo;abstraction, un concept qui nous aide à développer nos connaissances de différentes manières. Nous explorerons ce qu&rsquo;est l&rsquo;abstraction dans une perspective philosophique, pour nous aider à comprendre l&rsquo;abstraction en informatique et dans le cerveau humain.">
+<meta name="author" content="">
+<link rel="canonical" href="https://gaut.io/fr/posts/abstraction-mind-computers/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css" integrity="sha256-7I2jZsovtkdTfMt6j2&#43;ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://gaut.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://gaut.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://gaut.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://gaut.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://gaut.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://gaut.io/posts/abstraction-mind-computers/">
+<link rel="alternate" hreflang="fr" href="https://gaut.io/fr/posts/abstraction-mind-computers/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="L&#39;abstraction dans l&#39;esprit et les ordinateurs" />
+<meta property="og:description" content="Le concept d&rsquo;abstraction est fondamentalement essentiel et enraciné dans l&rsquo;existence humaine. Depuis 200 000 ans, les humains ont accumulé un ensemble immense de connaissances dans de nombreux domaines différents. Cela a été rendu possible grâce à l&rsquo;abstraction, un concept qui nous aide à développer nos connaissances de différentes manières. Nous explorerons ce qu&rsquo;est l&rsquo;abstraction dans une perspective philosophique, pour nous aider à comprendre l&rsquo;abstraction en informatique et dans le cerveau humain." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gaut.io/fr/posts/abstraction-mind-computers/" />
+<meta property="og:image" content="https://gaut.io/images/abstraction-mind-computers/abstraction-0.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-08T23:36:38&#43;02:00" />
+<meta property="article:modified_time" content="2021-02-08T23:36:38&#43;02:00" /><meta property="og:site_name" content="Gautier Marechal" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://gaut.io/images/abstraction-mind-computers/abstraction-0.png" />
+<meta name="twitter:title" content="L&#39;abstraction dans l&#39;esprit et les ordinateurs"/>
+<meta name="twitter:description" content="Le concept d&rsquo;abstraction est fondamentalement essentiel et enraciné dans l&rsquo;existence humaine. Depuis 200 000 ans, les humains ont accumulé un ensemble immense de connaissances dans de nombreux domaines différents. Cela a été rendu possible grâce à l&rsquo;abstraction, un concept qui nous aide à développer nos connaissances de différentes manières. Nous explorerons ce qu&rsquo;est l&rsquo;abstraction dans une perspective philosophique, pour nous aider à comprendre l&rsquo;abstraction en informatique et dans le cerveau humain."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://gaut.io/fr/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "L'abstraction dans l'esprit et les ordinateurs",
+      "item": "https://gaut.io/fr/posts/abstraction-mind-computers/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "L'abstraction dans l'esprit et les ordinateurs",
+  "name": "L\u0027abstraction dans l\u0027esprit et les ordinateurs",
+  "description": "Le concept d\u0026rsquo;abstraction est fondamentalement essentiel et enraciné dans l\u0026rsquo;existence humaine. Depuis 200 000 ans, les humains ont accumulé un ensemble immense de connaissances dans de nombreux domaines différents. Cela a été rendu possible grâce à l\u0026rsquo;abstraction, un concept qui nous aide à développer nos connaissances de différentes manières. Nous explorerons ce qu\u0026rsquo;est l\u0026rsquo;abstraction dans une perspective philosophique, pour nous aider à comprendre l\u0026rsquo;abstraction en informatique et dans le cerveau humain.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Le concept d’abstraction est fondamentalement essentiel et enraciné dans l’existence humaine. Depuis 200 000 ans, les humains ont accumulé un ensemble immense de connaissances dans de nombreux domaines différents. Cela a été rendu possible grâce à l’abstraction, un concept qui nous aide à développer nos connaissances de différentes manières. Nous explorerons ce qu’est l’abstraction dans une perspective philosophique, pour nous aider à comprendre l’abstraction en informatique et dans le cerveau humain.\nL’une des réflexions les plus populaires sur l’abstraction en philosophie a été elaborée par John Locke en 1689. Dans le livre III, Locke mentionne que dans le langage, nous utilisons des termes généraux pour parler de éléments particuliers. En effet, Locke suppose qu’il se trouve trop de détails auxquels penser, et ce serait une tâche bein trop importante pour l’esprit de se souvenir de tous ces détails. Par conséquent, nous utilisons des termes généraux comme des mots qui classent des éléments spécifiques dans un groupe. Cette classification est rendue possible par l’abstraction.\nPar exemple, le mot « cheval » englobe tout ce qui ressemble à un cheval dans votre perception. Tous ces éléments particuliers du groupe sont liés par l’essence qui fait que chaque élément fait partie du groupe. Et cette essence est le résultat des idées abstraites que vous avez des chevaux. L’abstraction forme l’essence de l’esprit et crée la connaissance dans son ensemble.\nMaintenant, qu’est-ce qui est clairement une abstraction ? Les racines du mot définissent quelque chose d’abstrait comme “quelque chose tiré ou éloigné”. C’est exactement le processus dans lequel l’esprit s’engage lorsqu’il regroupe des idées comme mentionné ci-dessus. Il convertit l’élément réel en une apparence (ou idée) mentale et détache cette dernière de toute caractéristique de la vie réelle comme l’espace ou le temps.\nAlors voici le processus d’abstraction de l’esprit:\n L’esprit identifie une chose réelle Le convertit en idée Se détache de la vie réelle Observe l’essence de l’élément Regroupe l’élément sous une idée générale = une idée abstraite.  Identifions maintenant l’abstraction en informatique, un domaine créé par l’homme, et voyons comment ce processus d’abstraction peut se refléter dans ce domaine.\nUn ordinateur contient un processeur, le cerveau de l’ordinateur. Le CPU reçoit du courant électrique à travers son architecture. Le câblage à l’intérieur du CPU interprétera un courant électrique comme un 1 et une absence de courant électrique comme un 0. Ces ensembles de 1 et de 0 sont des instructions envoyées de la RAM au CPU, lui disant d’exécuter certaines tâches. Ensuite, lorsque le processeur connait ses tâches à accomplir, il traite à nouveau les instructions sous forme de courant électrique vers d’autres composants de la carte mère.\nPour exécuter de telles tâches, le CPU doit effectuer des calculs sous la forme de calculs. Ces calculs sont rendus possibles avec des portes logiques. Les portes logiques sont des composants électroniques appelés transistors, que l’on retrouve sur le tableau électrique. Une porte logique accepte le courant électrique en entrée et produira un 0 ou un 1. La sortie dépend de l’entrée, et il existe différentes portes logiques qui auront une logique différente pour produire le résultat.\nPrenons la porte AND. Il sort un 1 seulement si toutes les entrées sont des 1, sinon il sort un 0. Donc si on donne 1 et 0, le résultat sera 0.\nImaginez maintenant une carte électronique entière constituée d’un grand nombre de ces portes, et les possibilités de calculs.\nToutes les choses mentionnées ci-dessus sont au niveau physique, ou le niveau d’abstraction le plus bas possible. Cela signifie que nous sommes au plus proche de la réalité, car l’électricité est un processus naturel d’électrons circulant à travers la matière. Maintenant, augmentons le niveau d’abstraction du courant électrique à un ensemble structuré d’instructions.\nD’où viennent toutes ces instructions à l’origine ?\nLa réponse: les programmes. Les programmes informatiques ne sont qu’un moyen pour les humains d’envoyer des instructions au processeur. Nous sommes maintenant à un niveau d’abstraction supérieur au niveau physique.\nDans les programmes informatiques, il existe plusieurs niveaux d’abstraction en fonction de leur “distance” par rapport aux composants physiques de la carte mère.\nLe langage de programmation le plus bas est le langage machine, qui contient des fonctions sous forme de bits, envoyés directement au CPU.\nEnsuite, si nous augmentons le niveau d’abstraction, ou en d’autres termes, nous nous détachons encore plus de la réalité du courant électrique, nous avons le langage d’assemblage.\nLe langage d’assemblage contient des instructions compréhensibles par l’homme pour communiquer avec le processeur. Par exemple, l’instruction « MOV » permet aux langages d’assemblage de dire au processeur de déplacer les données à un endroit spécifique.\nRemontons maintenant au niveau d’abstraction supérieur et voyons les langages de haut niveau.\nLes langages de haut niveau sont des langages de programmation avec lesquels les programmeurs peuvent utiliser le langage naturel pour écrire des programmes qui enverront des instructions au CPU. En Java, qui est un langage dit de “haut niveau”, vous écrirez System.out.print(\"Hello World\"); pour afficher sur le moniteur “Hello World”.\nLe mot print correspond directement à l’idée d’impression pour le programmeur, ce qui rend le langage pratique à utiliser.\nLe langage sera traduit en langage d’assemblage via un compilateur, puis le langage d’assemblage donnera le code machine, instruisant le CPU sous forme de courant éléctrique.\nEt au dessus de tout ces langages, existent des langages visuels ou même l’entrée d’un utilisateur. L’entrée déclenchera des instructions de langage de haut niveau qui déclencheront la cascade d’évènements indiquée précédemment.\nTous ces différents niveaux du langage informatique sont tous liés grâce à l’abstraction. Ce processus est similaire aux idées abstraites dont John Locke a discuté au 17ème siècle. De la même manière que les idées spécifiques dans l’esprit transformées en idées générales par abstraction, le spécifique qu’est le courant électrique est traduit à travers de multiples couches jusqu’au niveau de compréhension pour les humains. Le courant électrique qui est réel, est vu comme une apparence mentale, détachée de la réalité, transformée en langages de mots naturels. Ces langages de mots naturels sont des langages de programmation que nous utilisons de nos jours et qui dictent une grande partie de nos sociétés.\n",
+  "wordCount" : "1014",
+  "inLanguage": "fr",
+  "image":"https://gaut.io/images/abstraction-mind-computers/abstraction-0.png","datePublished": "2021-02-08T23:36:38+02:00",
+  "dateModified": "2021-02-08T23:36:38+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gaut.io/fr/posts/abstraction-mind-computers/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gautier Marechal",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gaut.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://gaut.io/fr/" accesskey="h" title="Gautier Marechal (Alt + H)">Gautier Marechal</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://gaut.io/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://gaut.io/fr/posts" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gaut.io/fr/projects" title="Projets">
+                    <span>Projets</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gaut.io/fr/categories" title="Catégories">
+                    <span>Catégories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://gaut.io/fr/search" title="Rechercher (Alt &#43; /)" accesskey=/>
+                    <span>Rechercher</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://gaut.io/fr/">Accueil</a>&nbsp;»&nbsp;<a href="https://gaut.io/fr/posts/">Posts</a></div>
+    <h1 class="post-title">
+      L&#39;abstraction dans l&#39;esprit et les ordinateurs
+    </h1>
+    <div class="post-meta"><span title='2021-02-08 23:36:38 +0200 +0200'>février 8, 2021</span>&nbsp;·&nbsp;5 min&nbsp;|&nbsp;Traductions:
+<ul class="i18n_list">
+    <li>
+        <a href="https://gaut.io/posts/abstraction-mind-computers/">English</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://gaut.io/images/abstraction-mind-computers/abstraction-0.png" alt="Abstraction">
+        
+</figure>
+
+  <div class="post-content"><p>Le concept d&rsquo;abstraction est fondamentalement essentiel et enraciné dans l&rsquo;existence humaine. Depuis 200 000 ans, les humains ont accumulé un ensemble immense de connaissances dans de nombreux domaines différents. Cela a été rendu possible grâce à l&rsquo;abstraction, un concept qui nous aide à développer nos connaissances de différentes manières. Nous explorerons ce qu&rsquo;est l&rsquo;abstraction dans une perspective philosophique, pour nous aider à comprendre l&rsquo;abstraction en informatique et dans le cerveau humain.</p>
+<p>L&rsquo;une des réflexions les plus populaires sur l&rsquo;abstraction en philosophie a été elaborée par John Locke en 1689. Dans le livre III, Locke mentionne que dans le langage, nous utilisons des termes généraux pour parler de éléments particuliers. En effet, Locke suppose qu&rsquo;il se trouve trop de détails auxquels penser, et ce serait une tâche bein trop importante pour l&rsquo;esprit de se souvenir de tous ces détails. Par conséquent, nous utilisons des termes généraux comme des mots qui classent des éléments spécifiques dans un groupe. Cette classification est rendue possible par l&rsquo;abstraction.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-1.png" alt="John Locke — Philosophe britannique (1632–1704)"  title="John Locke — Philosophe britannique (1632–1704)"  />
+</p>
+<p>Par exemple, le mot « cheval » englobe tout ce qui ressemble à un cheval dans votre perception. Tous ces éléments particuliers du groupe sont liés par l&rsquo;essence qui fait que chaque élément fait partie du groupe. Et cette essence est le résultat des idées abstraites que vous avez des chevaux. L&rsquo;abstraction forme l&rsquo;essence de l&rsquo;esprit et crée la connaissance dans son ensemble.</p>
+<p>Maintenant, qu&rsquo;est-ce qui est clairement une abstraction ? Les racines du mot définissent quelque chose d&rsquo;abstrait comme &ldquo;quelque chose tiré ou éloigné&rdquo;. C&rsquo;est exactement le processus dans lequel l&rsquo;esprit s&rsquo;engage lorsqu&rsquo;il regroupe des idées comme mentionné ci-dessus. Il convertit l&rsquo;élément réel en une apparence (ou idée) mentale et détache cette dernière de toute caractéristique de la vie réelle comme l&rsquo;espace ou le temps.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-2.png#center" alt="Espace et Temps"  />
+</p>
+<p>Alors voici le processus d&rsquo;abstraction de l&rsquo;esprit:</p>
+<ol>
+<li>L&rsquo;esprit identifie une chose réelle</li>
+<li>Le convertit en idée</li>
+<li>Se détache de la vie réelle</li>
+<li>Observe l&rsquo;essence de l&rsquo;élément</li>
+<li>Regroupe l&rsquo;élément sous une idée générale = une idée abstraite.</li>
+</ol>
+<p>Identifions maintenant l&rsquo;abstraction en informatique, un domaine créé par l&rsquo;homme, et voyons comment ce processus d&rsquo;abstraction peut se refléter dans ce domaine.</p>
+<p>Un ordinateur contient un processeur, le cerveau de l&rsquo;ordinateur. Le CPU reçoit du courant électrique à travers son architecture. Le câblage à l&rsquo;intérieur du CPU interprétera un courant électrique comme un 1 et une absence de courant électrique comme un 0. Ces ensembles de 1 et de 0 sont des instructions envoyées de la RAM au CPU, lui disant d&rsquo;exécuter certaines tâches. Ensuite, lorsque le processeur connait ses tâches à accomplir, il traite à nouveau les instructions sous forme de courant électrique vers d&rsquo;autres composants de la carte mère.</p>
+<p>Pour exécuter de telles tâches, le CPU doit effectuer des calculs sous la forme de calculs. Ces calculs sont rendus possibles avec des portes logiques. Les portes logiques sont des composants électroniques appelés transistors, que l&rsquo;on retrouve sur le tableau électrique. Une porte logique accepte le courant électrique en entrée et produira un 0 ou un 1. La sortie dépend de l&rsquo;entrée, et il existe différentes portes logiques qui auront une logique différente pour produire le résultat.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-3.png#center," alt="Tous les types de portes logiques et leurs tables logiques"  title="Tous les types de portes logiques et leurs tables logiques"  />
+</p>
+<p>Prenons la porte AND. Il sort un 1 seulement si toutes les entrées sont des 1, sinon il sort un 0.
+Donc si on donne 1 et 0, le résultat sera 0.</p>
+<p>Imaginez maintenant une carte électronique entière constituée d&rsquo;un grand nombre de ces portes, et les possibilités de calculs.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-4.png#center," alt="La porte logique ET"  title="La porte logique ET"  />
+</p>
+<p>Toutes les choses mentionnées ci-dessus sont au niveau physique, ou le niveau d&rsquo;abstraction le plus bas possible. Cela signifie que nous sommes au plus proche de la réalité, car l&rsquo;électricité est un processus naturel d&rsquo;électrons circulant à travers la matière. Maintenant, augmentons le niveau d&rsquo;abstraction du courant électrique à un ensemble structuré d&rsquo;instructions.</p>
+<p>D&rsquo;où viennent toutes ces instructions à l&rsquo;origine ?</p>
+<p>La réponse: les programmes. Les programmes informatiques ne sont qu&rsquo;un moyen pour les humains d&rsquo;envoyer des instructions au processeur. Nous sommes maintenant à un niveau d&rsquo;abstraction supérieur au niveau physique.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-5.png#center," alt="Compilateur"  title="Compilateur"  />
+</p>
+<p>Dans les programmes informatiques, il existe plusieurs niveaux d&rsquo;abstraction en fonction de leur &ldquo;distance&rdquo; par rapport aux composants physiques de la carte mère.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-6.png#center," alt="Niveaux d&amp;rsquo;abstraction — Langages informatiques"  title="Niveaux d&#39;abstraction — Langages informatiques"  />
+</p>
+<p>Le langage de programmation le plus bas est le langage machine, qui contient des fonctions sous forme de bits, envoyés directement au CPU.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-7.png#center," alt="Instruction en code machine"  title="Instruction en code machine"  />
+</p>
+<p>Ensuite, si nous augmentons le niveau d&rsquo;abstraction, ou en d&rsquo;autres termes, nous nous détachons encore plus de la réalité du courant électrique, nous avons le langage d&rsquo;assemblage.</p>
+<p>Le langage d&rsquo;assemblage contient des instructions compréhensibles par l&rsquo;homme pour communiquer avec le processeur. Par exemple, l&rsquo;instruction « MOV » permet aux langages d&rsquo;assemblage de dire au processeur de déplacer les données à un endroit spécifique.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-8.png#center," alt="Instruction en langage d&amp;rsquo;assemblage"  title="Instruction en langage d&#39;assemblage"  />
+</p>
+<p>Remontons maintenant au niveau d&rsquo;abstraction supérieur et voyons les langages de haut niveau.</p>
+<p>Les langages de haut niveau sont des langages de programmation avec lesquels les programmeurs peuvent utiliser le langage naturel pour écrire des programmes qui enverront des instructions au CPU. En Java, qui est un langage dit de &ldquo;haut niveau&rdquo;, vous écrirez <code>System.out.print(&quot;Hello World&quot;);</code> pour afficher sur le moniteur &ldquo;Hello World&rdquo;.</p>
+<p>Le mot <code>print</code> correspond directement à l&rsquo;idée d&rsquo;impression pour le programmeur, ce qui rend le langage pratique à utiliser.</p>
+<p><img loading="lazy" src="/images/abstraction-mind-computers/abstraction-9.png#center," alt="Programme Java"  title="Programme Java"  />
+</p>
+<p>Le langage sera traduit en langage d&rsquo;assemblage via un compilateur, puis le langage d&rsquo;assemblage donnera le code machine, instruisant le CPU sous forme de courant éléctrique.</p>
+<p>Et au dessus de tout ces langages, existent des langages visuels ou même l&rsquo;entrée d&rsquo;un utilisateur. L&rsquo;entrée déclenchera des instructions de langage de haut niveau qui déclencheront la cascade d&rsquo;évènements indiquée précédemment.</p>
+<p>Tous ces différents niveaux du langage informatique sont tous liés grâce à l&rsquo;abstraction. Ce processus est similaire aux idées abstraites dont John Locke a discuté au 17ème siècle. De la même manière que les idées spécifiques dans l&rsquo;esprit transformées en idées générales par abstraction, le spécifique qu&rsquo;est le courant électrique est traduit à travers de multiples couches jusqu&rsquo;au niveau de compréhension pour les humains. Le courant électrique qui est réel, est vu comme une apparence mentale, détachée de la réalité, transformée en langages de mots naturels. Ces langages de mots naturels sont des langages de programmation que nous utilisons de nos jours et qui dictent une grande partie de nos sociétés.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://gaut.io/fr/">Gautier Marechal</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'Copier';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'Copié !';
+            setTimeout(() => {
+                copybutton.innerHTML = 'Copier';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

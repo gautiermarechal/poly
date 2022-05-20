@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NodeJS on Gautier Marechal</title>
+    <link>https://gaut.io/categories/nodejs/</link>
+    <description>Recent content in NodeJS on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Dec 2020 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/categories/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect the Dots</title>
+      <link>https://gaut.io/projects/connect-the-dots/</link>
+      <pubDate>Tue, 01 Dec 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/connect-the-dots/</guid>
+      <description>Developed a web app where users can connect books by their concepts. The user can choose 2 or more books and post a connection as an article or a template that we provide on the platform. The user can also view other people&amp;rsquo;s connections.
+Date December 2020
+Technology  React Javascript NodeJS Express MongoDB Styled-components  Github https://github.com/gautiermarechal/connect_the_dots</description>
+    </item>
+    
+    <item>
+      <title>Booking Appointment System</title>
+      <link>https://gaut.io/projects/booking-appointment-system/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/booking-appointment-system/</guid>
+      <description>Developed a booking system for a barber shop in Montreal. The customer can book a time slot with a chosen barber. The barbers have an admin platform to manage appointments.
+Date August 2020
+Technology  React Javascript NodeJS Express MongoDB  Github https://github.com/gautiermarechal/booking-appointment-system-m-corte</description>
+    </item>
+    
+    <item>
+      <title>Twitter Organizer</title>
+      <link>https://gaut.io/projects/twitter-organizer/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/twitter-organizer/</guid>
+      <description>Developing a Twitter bot that allows the user to categorize a tweet or a thread under a category. The tweet will be sent to the database and be rendered on the web app where the user can log in and browse all categorized tweets and all categories.
+Date August 2020 - December 2020
+Technology  React Javascript NodeJS Express PostgresSQL Python Twitter API  Github https://github.com/gautiermarechal/twitter_organizer_front_end</description>
+    </item>
+    
+  </channel>
+</rss>

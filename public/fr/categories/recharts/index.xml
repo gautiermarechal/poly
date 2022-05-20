@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Recharts on Gautier Marechal</title>
+    <link>https://gaut.io/fr/categories/recharts/</link>
+    <description>Recent content in Recharts on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 May 2020 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/fr/categories/recharts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graphique jours rentables Bitcoin</title>
+      <link>https://gaut.io/fr/projects/bitcoin-profitable-days/</link>
+      <pubDate>Fri, 01 May 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/bitcoin-profitable-days/</guid>
+      <description>Création d&amp;rsquo;un graphique qui affiche tous les jours où il aurait été rentable d&amp;rsquo;acheter du BTC, par rapport au prix d&amp;rsquo;aujourd&amp;rsquo;hui. Les jours rentables sont en vert et non rentables en rouge.
+Date Mai 2020
+Technologies  React Javascript Recharts Bitcoin API  Github https://github.com/gautiermarechal/btc-profitable-days-chart</description>
+    </item>
+    
+  </channel>
+</rss>

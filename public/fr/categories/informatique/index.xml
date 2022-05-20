@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Informatique on Gautier Marechal</title>
+    <link>https://gaut.io/fr/categories/informatique/</link>
+    <description>Recent content in Informatique on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 24 Mar 2021 23:36:38 +0200</lastBuildDate><atom:link href="https://gaut.io/fr/categories/informatique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La cryptographie et ses implications dans le passé, le présent et le futur</title>
+      <link>https://gaut.io/fr/posts/cryptography-implications/</link>
+      <pubDate>Wed, 24 Mar 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/posts/cryptography-implications/</guid>
+      <description>Le succès humain sur la planète a été rendu possible grâce à notre capacité à communiquer dans le but de résoudre des problèmes complexes en groupe. Cependant, certains groupes ne se sont pas toujours entendus, provoquant de multiples conflits qui ont façonné notre histoire. La cryptographie s&amp;rsquo;est révélée être un outil permettant de rendre la communication entre deux parties secrète pour toute autre partie. Cet outil a été bien plus important que nous ne le pensons, et nous explorerons comment il a façonné l&amp;rsquo;histoire dans le passé, le présent et le futur.</description>
+    </item>
+    
+    <item>
+      <title>L&#39;abstraction dans l&#39;esprit et les ordinateurs</title>
+      <link>https://gaut.io/fr/posts/abstraction-mind-computers/</link>
+      <pubDate>Mon, 08 Feb 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/posts/abstraction-mind-computers/</guid>
+      <description>Le concept d&amp;rsquo;abstraction est fondamentalement essentiel et enraciné dans l&amp;rsquo;existence humaine. Depuis 200 000 ans, les humains ont accumulé un ensemble immense de connaissances dans de nombreux domaines différents. Cela a été rendu possible grâce à l&amp;rsquo;abstraction, un concept qui nous aide à développer nos connaissances de différentes manières. Nous explorerons ce qu&amp;rsquo;est l&amp;rsquo;abstraction dans une perspective philosophique, pour nous aider à comprendre l&amp;rsquo;abstraction en informatique et dans le cerveau humain.</description>
+    </item>
+    
+  </channel>
+</rss>

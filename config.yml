@@ -1,9 +1,10 @@
-baseURL: "gaut.io"
+baseURL: "https://gaut.io/"
 title: Gautier Marechal
 paginate: 5
 theme: PaperMod
 
 params:
+  env: production
   defaultTheme: auto
   ShowShareButtons: false
   ShowReadingTime: true
@@ -24,7 +25,6 @@ params:
 
 taxonomies:
   category: categories
-  project: projects
 
 outputs:
   home:
@@ -53,15 +53,15 @@ languages:
       main:
         - identifier: posts
           name: Posts
-          url: /posts/
+          url: posts
           weight: 10
         - identifier: projects
           name: Projects
-          url: /projects/
+          url: projects
           weight: 20
         - identifier: categories
           name: Categories
-          url: /categories/
+          url: categories
           weight: 30
         - identifier: search
           name: Search
@@ -89,17 +89,17 @@ languages:
       main:
         - identifier: posts
           name: Publications
-          url: /fr/posts/
+          url: fr/posts
           weight: 10
         - identifier: projects
           name: Projets
-          url: /fr/projects/
+          url: fr/projects
           weight: 20
         - identifier: categories
           name: Catégories
-          url: /fr/categories/
+          url: fr/categories
           weight: 30
         - identifier: search
           name: Rechercher
-          url: /fr/search/
+          url: fr/search
           weight: 40

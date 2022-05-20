@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Philsophy on Gautier Marechal</title>
+    <link>https://gaut.io/categories/philsophy/</link>
+    <description>Recent content in Philsophy on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Feb 2021 23:36:38 +0200</lastBuildDate><atom:link href="https://gaut.io/categories/philsophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thermodynamics and The Human Mind</title>
+      <link>https://gaut.io/posts/thermo-and-human-mind/</link>
+      <pubDate>Mon, 01 Feb 2021 23:36:38 +0200</pubDate>
+      
+      <guid>https://gaut.io/posts/thermo-and-human-mind/</guid>
+      <description>When understood, some concepts can give the learner a completely new perspective of the world. Thermodynamics is one of them. This is a broad and generic subject that gives opportunity to parallel it with a lot of aspects in the world. Today we will parallel it with psychology, and more particularly to the human mind.
+Thermodynamics is the science of heat, work, temperature and their relations to energy. Let’s decompose these:</description>
+    </item>
+    
+  </channel>
+</rss>

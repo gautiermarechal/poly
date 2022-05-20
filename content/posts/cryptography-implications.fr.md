@@ -2,7 +2,7 @@
 title: "La cryptographie et ses implications dans le passé, le présent et le futur"
 date: 2021-03-24T23:36:38+02:00
 cover:
-  image: "../images/cryptography-implications/cryprography-0.jpeg"
+  image: "/images/cryptography-implications/cryprography-0.jpeg"
   alt: "Cryptography"
   caption: "Antique keys"
   relative: false

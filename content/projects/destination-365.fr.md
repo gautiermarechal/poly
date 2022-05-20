@@ -6,7 +6,7 @@ categories:
   - Nuxt
   - Typescript
 cover:
-  image: "../images/destination-365/destination-365-thumbnail.png"
+  image: "/images/destination-365/destination-365-thumbnail.png"
   alt: "Destination 365 Thumbnail"
   relative: false
 ShowToc: false

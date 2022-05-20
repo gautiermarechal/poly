@@ -6,7 +6,7 @@ categories:
   - Electronics
   - Hardware
 cover:
-  image: "../images/automatic-greenhouse/automatic-greenhouse-thumbnail.jpeg"
+  image: "/images/automatic-greenhouse/automatic-greenhouse-thumbnail.jpeg"
   alt: "Booking Appointment System Thumbnail"
   relative: false
 ShowToc: false

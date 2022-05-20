@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Electroniques on Gautier Marechal</title>
+    <link>https://gaut.io/fr/categories/electroniques/</link>
+    <description>Recent content in Electroniques on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Apr 2022 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/fr/categories/electroniques/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Serre Automatique</title>
+      <link>https://gaut.io/fr/projects/automatic-greenhouse/</link>
+      <pubDate>Sat, 23 Apr 2022 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/automatic-greenhouse/</guid>
+      <description>Cela faisait longtemps que je souhaitais approfondir mes connaissances en Arduino et en électronique. Le printemps arrivant dans le sud de la France, j&amp;rsquo;ai pensé à lier technologie et jardinage. J&amp;rsquo;ai donc décidé de construire une serre automatique.
+But L&amp;rsquo;idée est d&amp;rsquo;automatiser tout ce qu&amp;rsquo;un humain doit gérer avec une serre. Mon but n&amp;rsquo;est pas de créer un produit qui pourrait être commercialisé. J&amp;rsquo;avais seulement l&amp;rsquo;intention d&amp;rsquo;en apprendre le plus possible avec ce projet, liant électronique et jardinage.</description>
+    </item>
+    
+  </channel>
+</rss>

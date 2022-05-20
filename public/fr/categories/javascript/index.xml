@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Javascript on Gautier Marechal</title>
+    <link>https://gaut.io/fr/categories/javascript/</link>
+    <description>Recent content in Javascript on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 Aug 2020 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/fr/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter Organizer</title>
+      <link>https://gaut.io/fr/projects/twitter-organizer/</link>
+      <pubDate>Sat, 01 Aug 2020 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/fr/projects/twitter-organizer/</guid>
+      <description>Développement d&amp;rsquo;un bot Twitter qui permet à l&amp;rsquo;utilisateur de catégoriser un tweet ou un thread dans une catégorie. Le tweet sera envoyé à la base de données et rendu sur l&amp;rsquo;application Web où l&amp;rsquo;utilisateur qui peut se connecter et parcourir tous les tweets catégorisés ainsi que toutes les catégories existantes.
+Date Août 2020
+Technologies  React Javascript NodeJS Express PostgresSQL Python Twitter API  Github https://github.com/gautiermarechal/twitter_organizer_front_end</description>
+    </item>
+    
+  </channel>
+</rss>

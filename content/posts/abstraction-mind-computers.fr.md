@@ -2,7 +2,7 @@
 title: L'abstraction dans l'esprit et les ordinateurs
 date: 2021-02-08T23:36:38+02:00
 cover:
-  image: "../images/abstraction-mind-computers/abstraction-0.png"
+  image: "/images/abstraction-mind-computers/abstraction-0.png"
   alt: "Abstraction"
   relative: false
 categories:

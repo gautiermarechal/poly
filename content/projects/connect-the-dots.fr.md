@@ -6,7 +6,7 @@ categories:
   - React
   - NodeJS
 cover:
-  image: "../images/connect-the-dots/connect-the-dots-thumbnail.png"
+  image: "/images/connect-the-dots/connect-the-dots-thumbnail.png"
   alt: "Connect the Dots Thumbnail"
   relative: false
 ShowToc: false

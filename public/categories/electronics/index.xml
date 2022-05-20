@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Electronics on Gautier Marechal</title>
+    <link>https://gaut.io/categories/electronics/</link>
+    <description>Recent content in Electronics on Gautier Marechal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Apr 2022 12:12:22 +0200</lastBuildDate><atom:link href="https://gaut.io/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatic Greenhouse</title>
+      <link>https://gaut.io/projects/automatic-greenhouse/</link>
+      <pubDate>Sat, 23 Apr 2022 12:12:22 +0200</pubDate>
+      
+      <guid>https://gaut.io/projects/automatic-greenhouse/</guid>
+      <description>It&amp;rsquo;s been a long time since I wanted to expand my Arduino and electronics knowledge. Spring season coming in south of France, I thought of linking technology and harvesting. So I decided to build an automatic greenhouse.
+Goal The idea is to automatize everything a human has to manage with a greenhouse. My ultimate goal is not to create a product that could be commercialized. I only had intentions to learn as much as possible with this project, linking electronics and gardening.</description>
+    </item>
+    
+  </channel>
+</rss>

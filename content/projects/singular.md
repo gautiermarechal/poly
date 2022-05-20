@@ -6,7 +6,7 @@ categories:
   - Nuxt
   - Typescript
 cover:
-  image: "../images/singular/singular-thumbnail.png"
+  image: "/images/singular/singular-thumbnail.png"
   alt: "Singular Thumbnail"
   relative: false
 ShowToc: false
